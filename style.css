@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins&display=swap);
+nav {
+  position: fixed;
+  background-color: #121212;
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  padding: 9px 10px;
+  z-index: 1000;
+  justify-content: space-between;
+  align-items: center;
+}
+#scrollButton {
+  background-color: transparent;
+  border: none;
+  fill: #fff;
+  margin-top: 4px;
+  font-size: 20px;
+  float: right;
+}
+.nav-top {
+  float: left;
+  font-weight: bold;
+  margin: 10px;
+  color: #fff;
+  font-family: Poppins;
+  text-decoration: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Dark background color */
+    color: #fff; /* Light text color */
+    padding: 20px;
+    font-family: Poppins;
+    font-size: 14px;
+}
+
+.send-wrap {
+    border: 1px solid #555;
+    left: 0;
+    right: 0;
+    margin: 10px 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 5px;
+    background-color: #121212;
+    border-radius: 15px;
+}
+
+input[type="text"] {
+    padding: 15px 10px;
+    font-size: 16px;
+    border: none;
+    font-family: Poppins;
+    width: 72%;
+    margin: 0;
+    outline: none;
+    color: #fff;
+    border-radius: 4px;
+    background: transparent;
+}
+
+.send-btn {
+    padding: 10px 13px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    margin: 0;
+    outline: none;
+    background-color: #444;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #222;
+}
+
+#recipeList p {
+    padding-bottom: 25px;
+}
+
+.recipe {
+    margin-bottom: 1px;
+}
+.bold-text {
+  font-weight: bold;
+}
+
+.underline-text {
+  text-decoration: underline;
+}
+
+.strike-through-text {
+  text-decoration: line-through;
+}
